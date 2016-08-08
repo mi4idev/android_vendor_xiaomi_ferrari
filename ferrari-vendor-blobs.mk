@@ -42,6 +42,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/xiaomi/ferrari/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/xiaomi/ferrari/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/xiaomi/ferrari/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
     vendor/xiaomi/ferrari/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/xiaomi/ferrari/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
