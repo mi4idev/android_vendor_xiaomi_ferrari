@@ -18,6 +18,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libc2dcolorconvert.so:system/lib/libc2dcolorconvert.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/ferrari/proprietary/etc/firmware/seltech_mono.cnt:system/etc/firmware/seltech_mono.cnt \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -373,6 +377,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/xiaomi/ferrari/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_imx179.so:system/vendor/lib64/libmmcamera_imx179.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_imx214.so:system/vendor/lib64/libmmcamera_imx214.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_imx214_ofilm_largan.so:system/vendor/lib64/libmmcamera_imx214_ofilm_largan.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_imx214_sunny_largan.so:system/vendor/lib64/libmmcamera_imx214_sunny_largan.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_ov16825.so:system/vendor/lib64/libmmcamera_ov16825.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_ov7695.so:system/vendor/lib64/libmmcamera_ov7695.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_ov8858.so:system/vendor/lib64/libmmcamera_ov8858.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_ov8858_q8v19w.so:system/vendor/lib64/libmmcamera_ov8858_q8v19w.so \
+    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera_s5k3m2_f13s01k.so:system/vendor/lib64/libmmcamera_s5k3m2_f13s01k.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
