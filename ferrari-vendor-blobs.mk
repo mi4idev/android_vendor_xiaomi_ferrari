@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/xiaomi/ferrari/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/ferrari/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libchromatix_imx179_liveshot.so:system/lib/libchromatix_imx179_liveshot.so \
     vendor/xiaomi/ferrari/proprietary/etc/firmware/seltech_mono.cnt:system/etc/firmware/seltech_mono.cnt \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -43,6 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/xiaomi/ferrari/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/xiaomi/ferrari/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
+    vendor/xiaomi/ferrari/proprietary/lib64/libchromatix_imx135_liveshot.so:system/lib64/libchromatix_imx135_liveshot.so \
+    vendor/xiaomi/ferrari/proprietary/lib64/libchromatix_imx179_liveshot.so:system/lib64/libchromatix_imx179_liveshot.so \
     vendor/xiaomi/ferrari/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/xiaomi/ferrari/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/xiaomi/ferrari/proprietary/bin/btnvtool:system/bin/btnvtool \
@@ -546,7 +550,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/mmi_keypadbacklight.so:system/vendor/lib64/mmi_keypadbacklight.so \
     vendor/xiaomi/ferrari/proprietary/lib/libminui.so:system/lib/libminui.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/xiaomi/ferrari/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/xiaomi/ferrari/proprietary/lib64/libminui.so:system/lib64/libminui.so \
+    vendor/xiaomi/ferrari/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
+    vendor/xiaomi/ferrari/proprietary/lib64/libOmxVdecHevc.so:system/lib64/libOmxVdecHevc.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmi.so:system/vendor/lib64/libmmi.so \
     vendor/xiaomi/ferrari/proprietary/bin/fmconfig:system/bin/fmconfig \
