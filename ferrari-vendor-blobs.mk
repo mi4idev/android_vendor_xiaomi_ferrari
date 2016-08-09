@@ -84,6 +84,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/lib64/libchromatix_imx135_liveshot.so:system/lib64/libchromatix_imx135_liveshot.so \
     vendor/xiaomi/ferrari/proprietary/lib64/libchromatix_imx179_liveshot.so:system/lib64/libchromatix_imx179_liveshot.so \
     vendor/xiaomi/ferrari/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/xiaomi/ferrari/proprietary/bin/cnd:system/bin/cnd \
+    vendor/xiaomi/ferrari/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/ferrari/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/xiaomi/ferrari/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
@@ -429,6 +431,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/ferrari/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/xiaomi/ferrari/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/xiaomi/ferrari/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/ferrari/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/ferrari/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
