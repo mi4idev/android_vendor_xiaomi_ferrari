@@ -373,10 +373,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
+    vendor/xiaomi/ferrari/proprietary/etc/calib.cfg:system/etc/calib.cfg \
     vendor/xiaomi/ferrari/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/ferrari/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/xiaomi/ferrari/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/xiaomi/ferrari/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/xiaomi/ferrari/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
+    vendor/xiaomi/ferrari/proprietary/etc/xtwifi.conf::system/etc/xtwifi.conf \
     vendor/xiaomi/ferrari/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/ferrari/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/ferrari/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
