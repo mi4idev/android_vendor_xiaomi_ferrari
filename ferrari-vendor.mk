@@ -39,13 +39,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
-    vendor/xiaomi/ferrari/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
     vendor/xiaomi/ferrari/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/ferrari/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/ferrari/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
-    vendor/xiaomi/ferrari/proprietary/lib64/hw/audio.primary.msm8916.so:system/lib64/hw/audio.primary.msm8916.so \
-    vendor/xiaomi/ferrari/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/xiaomi/ferrari/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/xiaomi/ferrari/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/ferrari/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
@@ -380,7 +376,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/etc/modem/Diag.cfg:system/etc/modem/Diag.cfg \
     vendor/xiaomi/ferrari/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/xiaomi/ferrari/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/xiaomi/ferrari/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
@@ -482,7 +477,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ferrari/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/xiaomi/ferrari/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/xiaomi/ferrari/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/xiaomi/ferrari/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
